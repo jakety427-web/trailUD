@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #0b0b0b;
+  color: #d6c8a4;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #0b0b0b;
+}
+.hero h1 {
+  color: #c9a041;
+  font-size: 3em;
+  margin: 0;
+}
+.hero h2 {
+  color: #c9a041;
+  margin: 10px 0;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #c9a041;
+  margin-top: 20px;
+}
+.countdown div {
+  text-align: center;
+}
+.countdown span {
+  font-size: 2em;
+  display: block;
+}
+
+.register {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.register h2 {
+  text-align: center;
+  color: #c9a041;
+}
+label {
+  color: #c9a041;
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  background: #141414;
+  border: 1px solid #c9a041;
+  color: #d6c8a4;
+  border-radius: 4px;
+}
+button {
+  background: #c9a041;
+  color: #0b0b0b;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+button:hover {
+  background: #e5c46f;
+}
+.success {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  color: #c9a041;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #b9a86f;
+  font-size: 0.9em;
+}
