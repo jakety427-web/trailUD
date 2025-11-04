@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unity Day Colorado XVIII</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero">
+    <h1>UNITY DAY XVIII</h1>
+    <h2>Mile High Area • March 28, 2026</h2>
+    <p>2915 High St, Denver, CO 80205</p>
+
+    <div class="countdown">
+      <div><span id="d">--</span><small>Days</small></div>
+      <div><span id="h">--</span><small>Hours</small></div>
+      <div><span id="m">--</span><small>Min</small></div>
+      <div><span id="s">--</span><small>Sec</small></div>
+    </div>
+  </section>
+
+  <section class="register">
+    <h2>Unity Day XVIII Registration + T-Shirt</h2>
+    <form id="unityForm">
+      <label>Name *</label>
+      <input type="text" name="name" required>
+
+      <label>Email *</label>
+      <input type="email" name="email" required>
+
+      <label>Phone</label>
+      <input type="text" name="phone">
+
+      <label>T-Shirt Size *</label>
+      <select name="size" required>
+        <option value="">Select size</option>
+        <option>S</option><option>M</option><option>L</option>
+        <option>XL</option><option>2XL</option><option>3XL</option>
+      </select>
+
+      <label>Registration Type *</label>
+      <select name="regType" required>
+        <option value="">Select option</option>
+        <option>Pre-Registration – $25</option>
+        <option>Standard – $35</option>
+        <option>Day-Of – $40</option>
+      </select>
+
+      <label>Newcomer Donation</label>
+      <select name="donation">
+        <option value="">No donation</option>
+        <option>$5</option><option>$10</option>
+        <option>$15</option><option>$20</option><option>$25</option>
+      </select>
+
+      <label>Payment Method *</label>
+      <select name="payment" required>
+        <option value="">Select method</option>
+        <option>PayPal</option><option>Venmo</option>
+        <option>Stripe</option><option>Cash App</option>
+      </select>
+
+      <label>Notes</label>
+      <textarea name="notes" rows="3"></textarea>
+
+      <button type="submit">Submit Registration</button>
+      <div class="success">✅ Thank you! Your registration has been received.</div>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Unity Day Colorado — Mile High Area Narcotics Anonymous</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
